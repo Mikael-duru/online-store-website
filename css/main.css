@@ -132,6 +132,7 @@ NAVIGATION AND LOGO
 
 .navbar .logo img {
   width: 125px;
+  vertical-align: bottom;
 }
 
 nav {
@@ -161,8 +162,8 @@ nav ul li a.selected {
 }
 
 .cart-icon {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   transition: scale 0.3s ease-in;
 }
 
@@ -171,7 +172,7 @@ nav ul li a.selected {
 }
 
 .menu-icon {
-  width: 28px;
+  width: 30px;
   margin-left: 20px;
   display: none;
 }
