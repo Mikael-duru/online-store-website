@@ -547,6 +547,12 @@ form a {
   left: 0;
 }
 
+#RegForm .hidden {
+  visibility: hidden;
+  position: absolute;
+  transform: translate(-999px, 0px);
+}
+
 
 
 
