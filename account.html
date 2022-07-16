@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RedStore | Account</title>
+  <meta name="description" content="The World's Largest Online Store, created with life in mind. Rediscover a great shopping tradition.">
+  <meta name="author" content="Duru Michael C.| durumikaelc@gmail.com">
+  
+  <!-- font and fontawesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <div class="bg">
+    <!-- Navigation Starts -->
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="img/logo.png" alt="">
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="account.html" class="selected">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"><img src="img/cart.png" class="cart-icon"></a>
+        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+      <!-- Navigation Ends -->
+
+      <!-- Account Page Starts -->
+      <div class="account-page">
+        <div class="row">
+          <div class="col-2">
+            <img src="img/image1.png" width="100%">
+          </div>
+          <div class="col-2">
+            <div class="form-container">
+              <div class="form-btn">
+                <span onclick="login()">Login</span>
+                <span onclick="register()">Register</span>
+                <hr id="Indicator">
+              </div>
+              <form id="LoginForm">
+                <input type="text" placeholder="Username" autocomplete="username">
+                <input type="password" placeholder="Password" autocomplete="current-password">
+                <button type="submit" class="btn">Login</button>
+                <a href="#">Forgot password?</a>
+              </form>
+    
+              <form id="RegForm">
+                <input type="text" placeholder="Username" autocomplete="username">
+                <input type="email" placeholder="Email" autocomplete="email">
+                <input type="password" placeholder="Password" autocomplete="new-password">
+                <button type="submit" class="btn">Register</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Account Page Ends -->
+
+  <!-- Footer Starts -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Andriod and ios mobile phone.</p>
+          <div class="app-logo">
+            <a href="#"><img src="img/app-store.png" alt=""></a>
+            <a href="#"><img src="img/play-store.png" alt=""></a>
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="img/logo-white.png" alt="">
+          <p>Our Purpose is to Sustainably Make the Pleasure and Benefits of Sport Accessible to Everyone.</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="#">Coupons</a></li>
+            <li><a href="#">Blog Post</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Join Affiliate</a></li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow us</h3>
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright &copy; 2021 | Made by Duru Michael C.</p>
+    </div>
+  </footer>
+  <!-- Footer Ends -->
+  
+
+  <!-- Custom Js File -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

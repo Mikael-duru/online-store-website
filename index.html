@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RedStore | Ecommerce Website Design</title>
+  <meta name="description" content="The World's Largest Online Store, created with life in mind. Rediscover a great shopping tradition.">
+  <meta name="author" content="Duru Michael C. | durumikaelc@gmail.com">
+
+  <!-- font and fontawesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="css/main.css"> 
+  <link rel="stylesheet" href="css/responsive.css"> 
+</head>
+
+<body>
+  <div class="bg">
+    <div class="container">
+      <!-- Navigation Starts -->
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html" class="selected">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"><img src="img/cart.png" class="cart-icon"></a>
+        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+      <!-- Navigation Ends -->
+
+      <!-- Home Page Starts -->
+      <div class="row">
+        <div class="col-2">
+          <h1>Give Your Workout<br>A New Style!</h1>
+          <p>Success isn't always about greatness. It's about consistency. Consistent hard work gains success. Greatness will come.</p>
+          <a href="" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+          <img src="img/image1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- featured categories -->
+  <section class="categories">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <img src="img/category-1.jpg">
+        </div>
+        <div class="col-3"><img src="img/category-2.jpg"></div>
+        <div class="col-3"><img src="img/category-3.jpg"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- featured products -->
+  <section class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <a href="product-details.html">
+          <img src="img/product-1.jpg">
+        </a>
+        <a href="product-details.html">
+          <h4>Red Printed PUMA T-Shirt</h4>
+        </a>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="img/product-2.jpg" alt="">
+        <h4>HRX Black Sneakers</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$55.00</p>
+      </div>
+      <div class="col-4">
+        <img src="img/product-3.jpg" alt="">
+        <h4>Custom Joggers</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="img/product-4.jpg" alt="">
+        <h4>Blue PUMA T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="img/product-5.jpg" alt="">
+        <h4>Custom Gray Sneakers </h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="img/product-6.jpg" alt="">
+        <h4>Black Printed PUMA T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$55.00</p>
+      </div>
+      <div class="col-4">
+        <img src="img/product-7.jpg" alt="">
+        <h4>HRX Sock Pack</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>$35.00</p>
+      </div>
+      <div class="col-4">
+        <img src="img/product-8.jpg" alt="">
+        <h4>Fossil Wristwatch</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$60.00</p>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="img/product-9.jpg" alt="">
+          <h4>Beadster Wristwatch</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa  fa-star-half-o"></i>
+          </div>
+          <p>$55.00</p>
+        </div>
+        <div class="col-4 adjust">
+          <img src="img/product-10.jpg" alt="">
+          <h4>HRX Black Sneakers</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="img/product-11.jpg" alt="">
+          <h4>Custom Sneakers</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$45.00</p>
+        </div>
+        <div class="col-4">
+          <img src="img/product-12.jpg" alt="">
+          <h4>Black Nike Joggers</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$55.00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- offer -->
+  <section class="bg offer">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <img src="img/exclusive.png" class="offer-img">
+        </div>
+        <div class="col-2">
+          <p>Exclusively Available on RedStore</p>
+          <h1>Smart Band 4</h1>
+          <small>The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) AMOLED color full-touch display with adjustable brightness, so everything is clear as can be.</small> <br>
+          <a href="" class="btn">Buy Now &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonial -->
+  <section class="testimonial">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <img src="img/user-1.png" alt="Picture of Sean Parker">
+          <h3>Sean Parker</h3>
+        </div>
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum enim explicabo recusandae, beatae debitis at.</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <img src="img/user-2.png" alt="Picture of Sean Parker">
+          <h3>Mike Smith</h3>
+        </div>
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit asperiores ipsa praesentium modi, consequatur dolorum!</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <img src="img/user-3.png" alt="Picture of Sean Parker">
+          <h3>Mabel Joe</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- brands -->
+  <section class="brands">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-5">
+          <img src="img/logo-coca-cola.png" alt="">
+        </div>
+        <div class="col-5">
+          <img src="img/logo-godrej.png" alt="">
+        </div>
+        <div class="col-5">
+          <img src="img/logo-paypal.png" alt="">
+        </div>
+        <div class="col-5">
+          <img src="img/logo-philips.png" alt="">
+        </div>
+        <div class="col-5">
+          <img src="img/logo-oppo.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Home Page Ends -->
+
+  <!-- Footer Starts -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Andriod and ios mobile phone.</p>
+          <div class="app-logo">
+            <a href="#"><img src="img/app-store.png" alt=""></a>
+            <a href="#"><img src="img/play-store.png" alt=""></a>
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="img/logo-white.png" alt="">
+          <p>Our Purpose is to Sustainably Make the Pleasure and Benefits of Sport Accessible to Everyone.</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="#">Coupons</a></li>
+            <li><a href="#">Blog Post</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Join Affiliate</a></li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow us</h3>
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright &copy; 2021 | Made by Duru Michael C.</p> 
+    </div>
+  </footer>
+  <!-- Footer Ends -->
+  
+  
+  <!-- Custom Js File -->
+  <script src="js/script.js"></script>
+  
+</body>
+</html>
