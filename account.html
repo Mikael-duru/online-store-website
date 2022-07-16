@@ -53,14 +53,17 @@
                 <span onclick="register()">Register</span>
                 <hr id="Indicator">
               </div>
-              <form id="LoginForm">
+              <form name="Login" id="LoginForm" data-netlify="true">
                 <input type="text" placeholder="Username" autocomplete="username">
                 <input type="password" placeholder="Password" autocomplete="current-password">
                 <button type="submit" class="btn">Login</button>
                 <a href="#">Forgot password?</a>
               </form>
     
-              <form id="RegForm">
+              <form name="Register" id="RegForm" netlify-honeypot="bot-field" data-netlify="true">
+                <p class="hidden" aria-hidden="true">
+                  <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                </p>
                 <input type="text" placeholder="Username" autocomplete="username">
                 <input type="email" placeholder="Email" autocomplete="email">
                 <input type="password" placeholder="Password" autocomplete="new-password">
