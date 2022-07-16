@@ -4,6 +4,6 @@ A custom online store website that offers the experience of online of shopping w
 
 ## Built with
 
-*HTML5
-*CSS3
-*JavaScript
+* HTML5
+* CSS3
+* JavaScript
