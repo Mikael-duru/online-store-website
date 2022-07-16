@@ -1,0 +1,74 @@
+/* Tablet and lesser screen sizes */
+
+@media screen and (max-width: 800px){
+
+  /* NAVIGATION AND LOGO */
+  nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: rgba(0,0,0,.8);
+    width: 100%;
+    overflow: hidden; /* hides the ul when clicked, js */
+    transition: max-height 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 20px 50px 20px 0;
+  }
+
+  nav ul li a {
+    color: #fff;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+}
+
+
+/* Mobile screen*/
+@media screen and (max-width: 600px){
+  .container {
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+
+  .container .row {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .row {
+    text-align: center;
+  }
+
+  .col-2, .col-3, .col-4 {
+    flex-basis: 100%;
+  }
+
+  .col-2 p {
+  width: 100%;
+  }
+
+  .single-product .row {
+    text-align: left;
+  }
+
+  .single-product .col-2 {
+    padding: 20px 0;
+  }
+
+  .single-product h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .cart-info p {
+    display: none;
+  }
+
+}
