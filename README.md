@@ -7,3 +7,5 @@ A custom online store website that offers the experience of online of shopping w
 * HTML5
 * CSS3
 * JavaScript
+
+Live site: [https://ecommerce-website-mikael.netlify.app/](https://ecommerce-website-mikael.netlify.app/)
